@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h1 align="center">BMI Calculator</h1>
+        <label for="weight">Enter your weight (kg)</label><br>
+        <input type="number" id="weight"><br>
+        <label for="height">Enter your height (m)</label><br>
+        <input type="number" id="height"><br>
+        <button id="calculateBMI">Calculate BMI</button>
+    </form>
+
+    <script>
+        document.getElementById("calculateBMI").addEventListener("click", function () {
+            var weight = parseFloat(document.getElementById("weight").value);
+            var height = parseFloat(document.getElementById("height").value);
+
+            if (weight > 0 && height > 0) {
+                var BMI = weight / (height * height);
+                alert("Your BMI is: " + BMI.toFixed(2)); // Display BMI with two decimal places
+            } else {
+                alert("Please enter valid weight and height values.");
+            }
+        });
+    </script>
+</body>
+
+</html>

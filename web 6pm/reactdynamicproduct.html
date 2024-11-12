@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: #333;
+      color: #fff;
+    }
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .navbar-nav {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-item {
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+    .product-list {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1rem;
+      text-align: center;
+      width: 200px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .image {
+      width: 100%;
+      height: auto;
+    }
+    .details {
+      margin-top: 1rem;
+    }
+    .title {
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+    }
+    .price {
+      font-size: 1rem;
+      color: #888;
+    }
+    .rating {
+      color: #ffa41b;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    const { useState } = React;
+
+    const NavBar = () => {
+      return (
+        <nav className="navbar">
+          <div className="navbar-brand">E-commerce Site</div>
+          <ul className="navbar-nav">
+            <li className="nav-item">Home</li>
+            <li className="nav-item">Products</li>
+            <li className="nav-item">Contact</li>
+          </ul>
+        </nav>
+      );
+    };
+
+    const ProductCard = ({ product, onClick }) => {
+      return (
+        <div className="card" onClick={() => onClick(product)}>
+          <img src={product.image} alt={product.name} className="image" />
+          <div className="details">
+            <h3 className="title">{product.name}</h3>
+            <p className="price">${product.price}</p>
+            <div className="rating">
+              ({product.rating})
+            </div>
+          </div>
+        </div>
+      );
+    };
+
+    const App = () => {
+      const products = [
+        {
+          id: 1,
+          name: 'Product 1',
+          price: 19.99,
+          rating: 4,
+          image: 'https://via.placeholder.com/150',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        },
+        {
+          id: 2,
+          name: 'Product 2',
+          price: 29.99,
+          rating: 5,
+          image: 'https://via.placeholder.com/150',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        },
+        {
+          id: 3,
+          name: 'Product 3',
+          price: 9.99,
+          rating: 3,
+          image: 'https://via.placeholder.com/150',
+          description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        },
+      ];
+
+      const [selectedProduct, setSelectedProduct] = useState(null);
+
+      const handleClick = (product) => {
+        setSelectedProduct(product);
+      };
+
+      return (
+        <div>
+          <NavBar />
+          <div className="product-list">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} onClick={handleClick} />
+            ))}
+          </div>
+          {selectedProduct && (
+            <div className="details-container">
+              <h2>{selectedProduct.name}</h2>
+              <img src={selectedProduct.image} alt={selectedProduct.name} className="image" />
+              <p>{selectedProduct.description}</p>
+              <p className="price">${selectedProduct.price}</p>
+              <div className="rating">
+                ({selectedProduct.rating})
+              </div>
+              <button className="back-button" onClick={() => setSelectedProduct(null)}>Back to Products</button>
+            </div>
+          )}
+        </div>
+      );
+    };
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>

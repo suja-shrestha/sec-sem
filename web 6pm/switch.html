@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="#" data-tab="one" class="visible">Einstein</a></li>
+        <li><a href="#" data-tab="two">Tesla</a></li>
+        <li><a href="#" data-tab="three">da Vinci</a></li>
+    </ul>
+
+    <div class="bio active" id="one">
+        <p>Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics).</p>
+    </div>
+    <div class="bio" id="two">
+        <p>Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system.</p>
+    </div>
+    <div class="bio" id="three">
+        <p>Leonardo da Vinci was an Italian polymath of the Renaissance whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

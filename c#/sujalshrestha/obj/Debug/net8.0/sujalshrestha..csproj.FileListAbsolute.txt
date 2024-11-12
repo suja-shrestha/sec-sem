@@ -1,0 +1,14 @@
+D:\c#\sujalshrestha\bin\Debug\net8.0\sujalshrestha..exe
+D:\c#\sujalshrestha\bin\Debug\net8.0\sujalshrestha..deps.json
+D:\c#\sujalshrestha\bin\Debug\net8.0\sujalshrestha..runtimeconfig.json
+D:\c#\sujalshrestha\bin\Debug\net8.0\sujalshrestha..dll
+D:\c#\sujalshrestha\bin\Debug\net8.0\sujalshrestha..pdb
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..AssemblyInfoInputs.cache
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..AssemblyInfo.cs
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..csproj.CoreCompileInputs.cache
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..dll
+D:\c#\sujalshrestha\obj\Debug\net8.0\refint\sujalshrestha..dll
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..pdb
+D:\c#\sujalshrestha\obj\Debug\net8.0\sujalshrestha..genruntimeconfig.cache
+D:\c#\sujalshrestha\obj\Debug\net8.0\ref\sujalshrestha..dll

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\sujalshrestha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|d:\\c#\\sujalshrestha\\try.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|solutionrelative:try.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|d:\\c#\\sujalshrestha\\appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|solutionrelative:appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|d:\\c#\\sujalshrestha\\ask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D365C23-847A-480E-B069-761B825500E0}|sujalshrestha..csproj|solutionrelative:ask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppBase.cs",
+              "DocumentMoniker": "D:\\c#\\sujalshrestha\\AppBase.cs",
+              "RelativeDocumentMoniker": "AppBase.cs",
+              "ToolTip": "D:\\c#\\sujalshrestha\\AppBase.cs",
+              "RelativeToolTip": "AppBase.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:59:37.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ask.cs",
+              "DocumentMoniker": "D:\\c#\\sujalshrestha\\ask.cs",
+              "RelativeDocumentMoniker": "ask.cs",
+              "ToolTip": "D:\\c#\\sujalshrestha\\ask.cs",
+              "RelativeToolTip": "ask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T01:55:10.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "try.cs",
+              "DocumentMoniker": "D:\\c#\\sujalshrestha\\try.cs",
+              "RelativeDocumentMoniker": "try.cs",
+              "ToolTip": "D:\\c#\\sujalshrestha\\try.cs",
+              "RelativeToolTip": "try.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T01:33:55.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
